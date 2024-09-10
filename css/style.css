@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root{
+	--color-hover-menu:#FE8F01;
+	--fondo-header:#3d3d3d;
+	--fondo-footer: #333333;
+	--letra-footer: #bababa;
+	--color-general: #666;
+	--fondo-card: #494949;
+	--fondo-counter: #010101;
+	--color-naranja: #FE8F01;
+	-color-titulos: #000;
+	
+}
+body{
+	font-size: 14px;
+	font-family: "Open Sans", sans-serif;
+	color: var(--color-contenido);
+	font-weight: 300;
+	background-color: white;
+}
+header{
+	background-color: var(--fondo-header);
+	padding: 10px 0;
+}
+
+#hero-slides h1{
+	font-size: 60px;
+	font-weight: 400;
+}
+
+#hero-slides p{
+	font-size: 16px;
+	letter-spacing: 4px;
+	padding-top: 10px;
+}
+
+.owl-carousel .owl-dots {
+    text-align: center;
+}
+.owl-carousel .owl-dot {
+    height: 11px;
+    width: 11px;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin: 35px 6px;
+}
+
+
+#about h2{
+	text-align: center;
+	color: #000;
+	font-size: 40px;
+	font-weight: 400;
+	padding-bottom: 3%;
+	letter-spacing: 3px;
+}
+
+#about{
+	padding: 8% 0%;
+}
+#about .tarjeta{
+	background-color: var(--fondo-card);
+	padding: 30px 15px;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+#about .tarjeta h4{
+	font-weight: 600;
+	margin-bottom: 30px;
+	font-size: 20px;
+	color: white;
+}
+
+#about .tarjeta p{
+	font-size: 15px;
+	font-weight: 300;
+	color: white;
+	letter-spacing: 1px;
+}
+#about .tarjeta i{
+	font-size: 30px;
+	color: var(--color-naranja);
+	margin-bottom: 30px;
+	border: solid;
+	background-color: var(--color-naranja);
+  	padding: 20px;
+ 	border-radius: 50%; 
+ 	color: white;
+}
+
+#counter{
+	background-color: var(--fondo-counter);
+	color: white;
+	text-align: center;
+	padding: 3% 0%;
+}
+
+
+#counter i{
+	font-size: 25px;
+	padding-bottom: 10px;
+}
+
+#counter h3{
+	font-size: 30px;
+	padding: 10px 0px;
+	font-weight: 300;
+}
+
+#counter p{
+	color: var(--color-naranja);
+	letter-spacing: 2px;
+	font-size: 10px;
+}
+
+footer{
+	background-color: var(--fondo-footer);
+	color: var(--letra-footer);
+	padding: 15px 0;
+	text-align: center;
+}
+
